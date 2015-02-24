@@ -1,7 +1,7 @@
 package com.biconcave.item;
 
+import com.biconcave.creativetabs.MCreativeTabs;
 import com.biconcave.lib.RefStrings;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -16,7 +16,7 @@ public class Mitems {
 	public static Item tNail;
 	
 	public static void initializeItem() {
-		tNail = new Item().setUnlocalizedName("tNail").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(RefStrings.MODID + "tNail");
+		tNail = new Item().setUnlocalizedName("tNail").setCreativeTab(MCreativeTabs.tabToeItem).setTextureName(RefStrings.MODID + "tNail");
 		
 	}
 

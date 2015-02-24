@@ -1,7 +1,7 @@
 package com.biconcave.blocks;
 
+import com.biconcave.creativetabs.MCreativeTabs;
 import com.biconcave.lib.RefStrings;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -17,7 +17,7 @@ public class Mblocks {
 	public static Block tnBlock;
 	
 	private static void initializeBlock() {
-		tnBlock = new tnBlock(Material.ground).setBlockName("tnBlock").setCreativeTab(CreativeTabs.tabBlock).setBlockTextureName(RefStrings.MODID + ":tnBlock");
+		tnBlock = new tnBlock(Material.ground).setBlockName("tnBlock").setCreativeTab(MCreativeTabs.tabToeBlock).setBlockTextureName(RefStrings.MODID + ":tnBlock");
 	}
 	
 

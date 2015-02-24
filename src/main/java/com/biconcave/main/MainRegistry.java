@@ -1,11 +1,10 @@
 package com.biconcave.main;
 
 import net.minecraft.init.Blocks;
-
 import com.biconcave.blocks.Mblocks;
+import com.biconcave.creativetabs.MCreativeTabs;
 import com.biconcave.item.Mitems;
 import com.biconcave.lib.RefStrings;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -21,8 +20,10 @@ public class MainRegistry {
 
 	@EventHandler
 	public static void PreLoad(FMLPreInitializationEvent PreEvent) {
-		Mitems.mainRegistry();
+		MCreativeTabs.initialiseTabs();
 		Mblocks.mainRegistry();
+		Mitems.mainRegistry();
+		CraftingManager.mainRegistry();
 		proxy.registerRenderInfo();
 	}
 	@EventHandler

@@ -1,2 +1,5 @@
 item.tNail.name=ToeNail Clippings
 tile.tnBlock.name=Compressed Toenails
+
+itemGroup.BlockTab=ToeTricity Blocks
+itemGroup.ItemTab=ToeTricity Items
