@@ -13,11 +13,13 @@ public class Mblocks {
 		initializeBlock();
 		registerItem();
 	}
-	
+	//Compressed Toenail block
 	public static Block tnBlock;
+	public static Block tnCrop;
 	
 	private static void initializeBlock() {
-		tnBlock = new tnBlock(Material.ground).setBlockName("tnBlock").setCreativeTab(MCreativeTabs.tabToeBlock).setBlockTextureName(RefStrings.MODID + ":tnBlock");
+		tnBlock = new tnBlock(Material.ground).setBlockName("tnBlock").setCreativeTab(MCreativeTabs.tabToeBlock);
+		//tnCrop = new tCrop().setBlockName("tnCrop").setCreativeTab(MCreativeTabs.tabToeBlock).setBlockTextureName(RefStrings.MODID + ":tnPlant");
 	}
 	
 

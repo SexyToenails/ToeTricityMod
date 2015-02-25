@@ -1,5 +1,5 @@
 package com.biconcave.lib;
-
+//Required Variables
 public class RefStrings {
 	
 		public static final String MODID = "toenails";

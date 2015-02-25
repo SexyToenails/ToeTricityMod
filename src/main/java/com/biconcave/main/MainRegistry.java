@@ -1,10 +1,13 @@
 package com.biconcave.main;
 
 import net.minecraft.init.Blocks;
+
 import com.biconcave.blocks.Mblocks;
 import com.biconcave.creativetabs.MCreativeTabs;
 import com.biconcave.item.Mitems;
 import com.biconcave.lib.RefStrings;
+
+import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;

@@ -1,16 +1,16 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "ToeTricity",
+  "name": "ToeTricity",
+  "description": "Adds toes.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://muwof.com",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["BiConcave, CuddlyNerd"],
+  "credits": "Programming - BiConcave, Art - CuddlyNerd, Concept - Various Friends",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": [FORGE]
 }
 ]

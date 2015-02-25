@@ -1,5 +1,13 @@
 item.tNail.name=ToeNail Clippings
 tile.tnBlock.name=Compressed Toenails
 
+item.tToe.name=Toe
+
+item.tnPick.name=ToeNail Pickaxe
+item.tnAxe.name=ToeNail Axe
+item.tnSpade.name=ToeNail Spade
+item.tnHoe.name=ToeNail Hoe
+item.tnSword.name=ToeNail Sword
+
 itemGroup.BlockTab=ToeTricity Blocks
-itemGroup.ItemTab=ToeTricity Items
+itemGroup.ItemTab=ToeTricity Misc. Items
